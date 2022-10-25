@@ -61,7 +61,7 @@ public class Task1 extends JFrame implements KeyListener {
         setTitle(title);
         setVisible(true);
         setSize(800, 700);
-        //setResizable(false);
+        setResizable(false);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
         //----------------------------------------------------------
@@ -121,72 +121,72 @@ public class Task1 extends JFrame implements KeyListener {
     public void keyPressed(KeyEvent e) {
         switch (e.getKeyCode()) {
             case KeyEvent.VK_TAB:
-                outPut.setText(outPut.getText());
+                
                 key2[0].setBackground(Color.PINK);
                 key2[0].setForeground(Color.white);
                 break;
             case KeyEvent.VK_Q:
-                outPut.setText(outPut.getText());
+                
                 key2[1].setBackground(Color.PINK);
                 key2[1].setForeground(Color.white);
                 break;
             case KeyEvent.VK_W:
-                outPut.setText(outPut.getText());
+                
                 key2[2].setBackground(Color.PINK);
                 key2[2].setForeground(Color.white);
                 break;
             case KeyEvent.VK_E:
-                outPut.setText(outPut.getText());
+                
                 key2[3].setBackground(Color.PINK);
                 key2[3].setForeground(Color.white);
                 break;
             case KeyEvent.VK_R:
-                outPut.setText(outPut.getText());
+                
                 key2[4].setBackground(Color.PINK);
                 key2[4].setForeground(Color.white);
                 break;
             case KeyEvent.VK_T:
-                outPut.setText(outPut.getText());
+                
                 key2[5].setBackground(Color.PINK);
                 key2[5].setForeground(Color.white);
                 break;
             case KeyEvent.VK_Y:
-                outPut.setText(outPut.getText());
+               
                 key2[6].setBackground(Color.PINK);
                 key2[6].setForeground(Color.white);
                 break;
             case KeyEvent.VK_U:
-                outPut.setText(outPut.getText());
+                
                 key2[7].setBackground(Color.PINK);
                 key2[7].setForeground(Color.white);
                 break;
             case KeyEvent.VK_I:
-                outPut.setText(outPut.getText());
+                
                 key2[8].setBackground(Color.PINK);
                 key2[8].setForeground(Color.white);
                 break;
             case KeyEvent.VK_O:
-                outPut.setText(outPut.getText());
+                
                 key2[9].setBackground(Color.PINK);
                 key2[9].setForeground(Color.white);
                 break;
             case KeyEvent.VK_P:
-                outPut.setText(outPut.getText());
+               
                 key2[10].setBackground(Color.PINK);
                 key2[10].setForeground(Color.white);
                 break;
             case KeyEvent.VK_OPEN_BRACKET:
-                outPut.setText(outPut.getText());
+                
                 key2[11].setBackground(Color.PINK);
                 key2[11].setForeground(Color.white);
                 break;
             case KeyEvent.VK_CLOSE_BRACKET:
-                outPut.setText(outPut.getText());
+               
                 key2[12].setBackground(Color.PINK);
                 key2[12].setForeground(Color.white);
                 break;
             case KeyEvent.VK_BACK_SLASH:
-                outPut.setText(outPut.getText());
+               
                 key2[13].setBackground(Color.PINK);
                 key2[13].setForeground(Color.white);
                 break;
@@ -194,84 +194,84 @@ public class Task1 extends JFrame implements KeyListener {
             /*-------------------------------------------------------------------------------------------------------*/
             //KEY 1 
             case KeyEvent.VK_DEAD_TILDE:
-                outPut.setText(outPut.getText());
+                
                 key1[0].setBackground(Color.PINK);
                 key1[0].setForeground(Color.white);
                 break;
             case KeyEvent.VK_1:
-                outPut.setText(outPut.getText());
+                
                 key1[1].setBackground(Color.PINK);
                 key1[1].setForeground(Color.white);
                 break;
             case KeyEvent.VK_2:
-                outPut.setText(outPut.getText());
+                
                 key1[2].setBackground(Color.PINK);
                 key1[2].setForeground(Color.white);
                 break;
             case KeyEvent.VK_3:
-                outPut.setText(outPut.getText());
+               
                 key1[3].setBackground(Color.PINK);
                 key1[3].setForeground(Color.white);
                 break;
             case KeyEvent.VK_4:
-                outPut.setText(outPut.getText());
+                
                 key1[4].setBackground(Color.PINK);
                 key1[4].setForeground(Color.white);
                 break;
             case KeyEvent.VK_5:
-                outPut.setText(outPut.getText());
+                
                 key1[5].setBackground(Color.PINK);
                 key1[5].setForeground(Color.white);
                 break;
             case KeyEvent.VK_6:
-                outPut.setText(outPut.getText());
+                
                 key1[6].setBackground(Color.PINK);
                 key1[6].setForeground(Color.white);
                 break;
             case KeyEvent.VK_7:
-                outPut.setText(outPut.getText());
+                
                 key1[7].setBackground(Color.PINK);
                 key1[7].setForeground(Color.white);
                 break;
             case KeyEvent.VK_8:
-                outPut.setText(outPut.getText());
+               
                 key1[8].setBackground(Color.PINK);
                 key1[8].setForeground(Color.white);
                 break;
             case KeyEvent.VK_9:
-                outPut.setText(outPut.getText());
+                
                 key1[9].setBackground(Color.PINK);
                 key1[9].setForeground(Color.white);
                 break;
             case KeyEvent.VK_0:
-                outPut.setText(outPut.getText());
+                
                 key1[10].setBackground(Color.PINK);
                 key1[10].setForeground(Color.white);
                 break;
             case KeyEvent.VK_MINUS:
-                outPut.setText(outPut.getText());
+                
                 key1[11].setBackground(Color.PINK);
                 key1[11].setForeground(Color.white);
                 break;
             case KeyEvent.VK_EQUALS:
-                outPut.setText(outPut.getText());
+                
                 key1[12].setBackground(Color.PINK);
                 key1[12].setForeground(Color.white);
                 break;
             case KeyEvent.VK_BACK_SPACE:
-                outPut.setText(outPut.getText());
+                
                 key1[13].setBackground(Color.PINK);
                 key1[13].setForeground(Color.white);
                 break;
             /*-------------------------------------------------------------------------------------------------------*/
             //KEY 3
             case KeyEvent.VK_CAPS_LOCK:
-                outPut.setText(outPut.getText());
+                
                 key3[0].setBackground(Color.PINK);
                 key3[0].setForeground(Color.white);
                 break;
             case KeyEvent.VK_A:
-                outPut.setText(outPut.getText());
+                
                 key3[1].setBackground(Color.PINK);
                 key3[1].setForeground(Color.white);
                 break;
@@ -281,74 +281,74 @@ public class Task1 extends JFrame implements KeyListener {
                 key3[2].setForeground(Color.white);
                 break;
             case KeyEvent.VK_D:
-                outPut.setText(outPut.getText());
+                
                 key3[3].setBackground(Color.PINK);
                 key3[3].setForeground(Color.white);
                 break;
             case KeyEvent.VK_F:
-                outPut.setText(outPut.getText());
+               
                 key3[4].setBackground(Color.PINK);
                 key3[4].setForeground(Color.white);
                 break;
             case KeyEvent.VK_G:
-                outPut.setText(outPut.getText());
+                
                 key3[5].setBackground(Color.PINK);
                 key3[5].setForeground(Color.white);
                 break;
             case KeyEvent.VK_H:
-                outPut.setText(outPut.getText());
+                
                 key3[6].setBackground(Color.PINK);
                 key3[6].setForeground(Color.white);
                 break;
             case KeyEvent.VK_J:
-                outPut.setText(outPut.getText());
+                 
                 key3[7].setBackground(Color.PINK);
                 key3[7].setForeground(Color.white);
                 break;
             case KeyEvent.VK_K:
-                outPut.setText(outPut.getText());
+                
                 key3[8].setBackground(Color.PINK);
                 key3[8].setForeground(Color.white);
                 break;
             case KeyEvent.VK_L:
-                outPut.setText(outPut.getText());
+                
                 key3[9].setBackground(Color.PINK);
                 key3[9].setForeground(Color.white);
                 break;
             case KeyEvent.VK_SEMICOLON:
-                outPut.setText(outPut.getText());
+                
                 key3[10].setBackground(Color.PINK);
                 key3[10].setForeground(Color.white);
                 break;
             case KeyEvent.VK_QUOTE:
-                outPut.setText(outPut.getText());
+                
                 key3[11].setBackground(Color.PINK);
                 key3[11].setForeground(Color.white);
                 break;
             case KeyEvent.VK_ENTER:
-                outPut.setText(outPut.getText());
+                
                 key3[12].setBackground(Color.PINK);
                 key3[12].setForeground(Color.white);
                 break;
             /*-------------------------------------------------------------------------------------------------------*/
             //KEY 4
             case KeyEvent.VK_SHIFT:
-                outPut.setText(outPut.getText());
+               
                 key4[0].setBackground(Color.PINK);
                 key4[0].setForeground(Color.white);
                 break;
             case KeyEvent.VK_Z:
-                outPut.setText(outPut.getText());
+                
                 key4[1].setBackground(Color.PINK);
                 key4[1].setForeground(Color.white);
                 break;
             case KeyEvent.VK_X:
-                outPut.setText(outPut.getText());
+                
                 key4[2].setBackground(Color.PINK);
                 key4[2].setForeground(Color.white);
                 break;
             case KeyEvent.VK_C:
-                outPut.setText(outPut.getText());
+                
                 key4[3].setBackground(Color.PINK);
                 key4[3].setForeground(Color.white);
                 break;
@@ -358,77 +358,77 @@ public class Task1 extends JFrame implements KeyListener {
                 key4[4].setForeground(Color.white);
                 break;
             case KeyEvent.VK_B:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key4[5].setBackground(Color.PINK);
                 key4[5].setForeground(Color.white);
                 break;
             case KeyEvent.VK_N:
-                outPut.setText(outPut.getText());
+                //.setText(outPut.getText());
                 key4[6].setBackground(Color.PINK);
                 key4[6].setForeground(Color.white);
                 break;
             case KeyEvent.VK_M:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key4[7].setBackground(Color.PINK);
                 key4[7].setForeground(Color.white);
                 break;
             case KeyEvent.VK_COMMA:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key4[8].setBackground(Color.PINK);
                 key4[8].setForeground(Color.white);
                 break;
             case KeyEvent.VK_PERIOD:
-                outPut.setText(outPut.getText());
+               // outPut.setText(outPut.getText());
                 key4[9].setBackground(Color.PINK);
                 key4[9].setForeground(Color.white);
                 break;
             case KeyEvent.VK_SLASH:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key4[10].setBackground(Color.PINK);
                 key4[10].setForeground(Color.white);
                 break;
-//            case KeyEvent.VK_UP:
-//                outPut.setText(outPut.getText());
-//                key4[12].setBackground(Color.PINK);
-//                key4[12].setForeground(Color.white);
-//                break;
+            case KeyEvent.VK_UP:
+                //outPut.setText(outPut.getText());
+                key4[12].setBackground(Color.PINK);
+                key4[12].setForeground(Color.white);
+                break;
  /*-------------------------------------------------------------------------------*/
             //KEY 5
             case KeyEvent.VK_CONTROL:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key5[0].setBackground(Color.PINK);
                 key5[0].setForeground(Color.white);
                 break;
             case KeyEvent.VK_F1:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key5[1].setBackground(Color.PINK);
                 key5[1].setForeground(Color.white);
                 break;
             case KeyEvent.VK_ALT:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key5[2].setBackground(Color.PINK);
                 key5[2].setForeground(Color.white);
                 break;
             case KeyEvent.VK_SPACE:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key5[3].setBackground(Color.PINK);
                 key5[3].setForeground(Color.white);
                 break;
-//            case KeyEvent.VK_LEFT:
-//                outPut.setText(outPut.getText());
-//                key5[7].setBackground(Color.PINK);
-//                key5[7].setForeground(Color.white);
-//                break;
-//            case KeyEvent.VK_DOWN:
-//                outPut.setText(outPut.getText());
-//                key5[8].setBackground(Color.PINK);
-//                key5[8].setForeground(Color.white);
-//                break;
-//            case KeyEvent.VK_RIGHT:
-//                outPut.setText(outPut.getText());
-//                key5[9].setBackground(Color.PINK);
-//                key5[9].setForeground(Color.white);
-//                break;
+            case KeyEvent.VK_LEFT:
+                //outPut.setText(outPut.getText());
+                key5[7].setBackground(Color.PINK);
+                key5[7].setForeground(Color.white);
+                break;
+            case KeyEvent.VK_DOWN:
+                //outPut.setText(outPut.getText());
+                key5[8].setBackground(Color.PINK);
+                key5[8].setForeground(Color.white);
+                break;
+            case KeyEvent.VK_RIGHT:
+                //outPut.setText(outPut.getText());
+                key5[9].setBackground(Color.PINK);
+                key5[9].setForeground(Color.white);
+                break;
                 
         }
     }
@@ -496,241 +496,239 @@ public class Task1 extends JFrame implements KeyListener {
             //KEY 1
 
             case KeyEvent.VK_DEAD_TILDE:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key1[0].setBackground(null);
                 key1[0].setForeground(Color.black);
                 break;
             case KeyEvent.VK_1:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key1[1].setBackground(null);
                 key1[1].setForeground(Color.black);
                 break;
             case KeyEvent.VK_2:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key1[2].setBackground(null);
                 key1[2].setForeground(Color.black);
                 break;
             case KeyEvent.VK_3:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key1[3].setBackground(null);
                 key1[3].setForeground(Color.black);
                 break;
             case KeyEvent.VK_4:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key1[4].setBackground(null);
                 key1[4].setForeground(Color.black);
                 break;
             case KeyEvent.VK_5:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key1[5].setBackground(null);
                 key1[5].setForeground(Color.black);
                 break;
             case KeyEvent.VK_6:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key1[6].setBackground(null);
                 key1[6].setForeground(Color.black);
                 break;
             case KeyEvent.VK_7:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key1[7].setBackground(null);
                 key1[7].setForeground(Color.black);
                 break;
             case KeyEvent.VK_8:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key1[8].setBackground(null);
                 key1[8].setForeground(Color.black);
                 break;
             case KeyEvent.VK_9:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key1[9].setBackground(null);
                 key1[9].setForeground(Color.black);
                 break;
             case KeyEvent.VK_0:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key1[10].setBackground(null);
                 key1[10].setForeground(Color.black);
                 break;
             case KeyEvent.VK_MINUS:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key1[11].setBackground(null);
                 key1[11].setForeground(Color.black);
                 break;
             case KeyEvent.VK_EQUALS:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key1[12].setBackground(null);
                 key1[12].setForeground(Color.black);
                 break;
             case KeyEvent.VK_BACK_SPACE:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key1[13].setBackground(null);
                 key1[13].setForeground(Color.black);
                 break;
             /*-------------------------------------------------------------------------------*/
             //KEY3
             case KeyEvent.VK_CAPS_LOCK:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key3[0].setBackground(null);
                 key3[0].setForeground(Color.black);
                 break;
             case KeyEvent.VK_A:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key3[1].setBackground(null);
                 key3[1].setForeground(Color.black);
                 break;
             case KeyEvent.VK_S:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key3[2].setBackground(null);
                 key3[2].setForeground(Color.black);
                 break;
             case KeyEvent.VK_D:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key3[3].setBackground(null);
                 key3[3].setForeground(Color.black);
                 break;
             case KeyEvent.VK_F:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key3[4].setBackground(null);
                 key3[4].setForeground(Color.black);
                 break;
             case KeyEvent.VK_G:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key3[5].setBackground(null);
                 key3[5].setForeground(Color.black);
                 break;
             case KeyEvent.VK_H:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key3[6].setBackground(null);
                 key3[6].setForeground(Color.black);
                 break;
             case KeyEvent.VK_J:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key3[7].setBackground(null);
                 key3[7].setForeground(Color.black);
                 break;
             case KeyEvent.VK_K:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key3[8].setBackground(null);
                 key3[8].setForeground(Color.black);
                 break;
             case KeyEvent.VK_L:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key3[9].setBackground(null);
                 key3[9].setForeground(Color.black);
                 break;
             case KeyEvent.VK_SEMICOLON:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key3[10].setBackground(null);
                 key3[10].setForeground(Color.black);
                 break;
             case KeyEvent.VK_QUOTE:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key3[11].setBackground(null);
                 key3[11].setForeground(Color.black);
                 break;
             case KeyEvent.VK_ENTER:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key3[12].setBackground(null);
                 key3[12].setForeground(Color.black);
                 break;
             /*-------------------------------------------------------------------------------*/
             //KEY4
             case KeyEvent.VK_SHIFT:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key4[0].setBackground(null);
                 key4[0].setForeground(Color.black);
                 break;
             case KeyEvent.VK_Z:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key4[1].setBackground(null);
                 key4[1].setForeground(Color.black);
                 break;
             case KeyEvent.VK_X:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key4[2].setBackground(null);
                 key4[2].setForeground(Color.black);
                 break;
             case KeyEvent.VK_C:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key4[3].setBackground(null);
                 key4[3].setForeground(Color.black);
                 break;
             case KeyEvent.VK_V:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key4[4].setBackground(null);
                 key4[4].setForeground(Color.black);
                 break;
             case KeyEvent.VK_B:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key4[5].setBackground(null);
                 key4[5].setForeground(Color.black);
                 break;
             case KeyEvent.VK_N:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key4[6].setBackground(null);
                 key4[6].setForeground(Color.black);
                 break;
             case KeyEvent.VK_M:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key4[7].setBackground(null);
                 key4[7].setForeground(Color.black);
                 break;
             case KeyEvent.VK_COMMA:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key4[8].setBackground(null);
                 key4[8].setForeground(Color.black);
                 break;
             case KeyEvent.VK_PERIOD:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key4[9].setBackground(null);
                 key4[9].setForeground(Color.black);
                 break;
             case KeyEvent.VK_SLASH:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key4[10].setBackground(null);
                 key4[10].setForeground(Color.black);
                 break;
-            case KeyEvent.VK_KP_UP:
-                outPut.setText(outPut.getText());
+            case KeyEvent.VK_UP:
+                //outPut.setText(outPut.getText());
                 key4[12].setBackground(null);
                 key4[12].setForeground(Color.black);
                 break;
             /*-------------------------------------------------------------------------------*/
             //KEY 5
             case KeyEvent.VK_CONTROL:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key5[0].setBackground(null);
                 key5[0].setForeground(Color.black);
                 break;
             case KeyEvent.VK_F1:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key5[1].setBackground(null);
                 key5[1].setForeground(Color.black);
                 break;
             case KeyEvent.VK_ALT:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key5[2].setBackground(null);
                 key5[2].setForeground(Color.black);
                 break;
             case KeyEvent.VK_SPACE:
-                outPut.setText(outPut.getText());
+                //outPut.setText(outPut.getText());
                 key5[3].setBackground(null);
                 key5[3].setForeground(Color.black);
                 break;
-//            case KeyEvent.VK_LEFT:
-//                outPut.setText(outPut.getText());
-//                key5[7].setBackground(null);
-//                key5[7].setForeground(Color.black);
-//                break;
-//            case KeyEvent.VK_DOWN:
-//                outPut.setText(outPut.getText());
-//                key5[8].setBackground(null);
-//                key5[8].setForeground(Color.black);
-//                break;
-//            case KeyEvent.VK_RIGHT:
-//                outPut.setText(outPut.getText());
-//                key5[9].setBackground(null);
-//                key5[9].setForeground(Color.black);
-//                break;
+            case KeyEvent.VK_LEFT:
+                //outPut.setText(outPut.getText());
+                key5[7].setBackground(null);
+                key5[7].setForeground(Color.black);
+                break;
+            case KeyEvent.VK_DOWN:
+                key5[8].setBackground(null);
+                key5[8].setForeground(Color.black);
+                break;
+            case KeyEvent.VK_RIGHT:
+                key5[9].setBackground(null);
+                key5[9].setForeground(Color.black);
+                break;
             
         }
     }
